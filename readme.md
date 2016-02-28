@@ -1,3 +1,7 @@
+#Pixel perfect UI mockup
+After typing 3 letters, 'Affected user' field will drop down available choices. For now, available data starts with All and Ale and JSON is being retrieved via AJAX call. 
+'Save' button is also enabled after required fields are filled out.
+
 things to improve/fix
 =====================
 -'browse' button and input text box to fit in other input's length
