@@ -1,0 +1,117 @@
+.req {
+  color: red;
+  margin: 20px 0px 14px 0px;
+}
+p {
+  margin: 10px 0px 0px 0px !important;
+}
+button {
+  font-weight: bold !important;
+/*  background-color: #ccc;*/
+}
+.prior {
+  cursor: pointer;
+  border-radius: 40px !important;
+  padding: 0px 15px 0px 15px !important;
+}
+#autoAssign {
+  margin: 10px 0px 30px 0px;
+}
+#calPrior {
+  margin-top: 10px;
+}
+input[type='text'] {
+  border-radius: 5px;
+  width: 70%;
+  vertical-align: center;
+  padding: 12px;
+  margin: 10px 10px 10px 0px;
+}
+#withButton {
+  width: 70%;
+}
+#container {
+  width: 100%;
+  /*display: table;*/
+}
+#container input {
+  /*width: 80%;*/
+  /*overflow: hidden;*/
+  /*display: inline;*/
+}
+#browse {
+  /*width: auto;*/
+  /*display: inline;*/
+}
+#cancel {
+  float: right;
+  margin: 20px 5px 20px 0px;
+}
+#save {
+  float: right;
+  margin: 20px 20px 20px 5px;
+}
+body {
+  padding-left: 20px;
+}
+form {
+  /*overflow-y:auto;*/
+  padding-bottom: 120px; /* must be same height as the footer */
+}
+.footer {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 120px;
+  bottom: 0;
+  right: 0;
+}
+.dropdown {
+  width: 70%;
+}
+.x {
+  cursor: pointer;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+.wrap {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.wrap input {
+  width: 90%;
+  border: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.dropdown-menu {
+  width: 100%;
+  top: 100% !important;
+}
+.name {
+  font-weight: bold;
+  font-size: 16px;
+}
+.comp {
+  text-align: right;
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+  border: 1px solid gray;
+  border-radius: 100px;
+  float: left !important;
+  display: inline-table;
+}
+#cushion {
+  width: 5%;
+  display: inline-table;
+}
+.grid {
+  width: 85%;
+  display: inline-table;
+}

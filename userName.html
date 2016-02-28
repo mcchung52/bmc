@@ -1,0 +1,25 @@
+<div class="dropdown">
+  <div class="wrap">
+    <input type="text" ng-model="form.userName" class="dropdown-toggle" data-toggle="dropdown" ng-change="nameChanged(form.userName)"/>
+    <span class="x" ng-click="xClicked()">X</span>    
+    <ul class="dropdown-menu" ng-show="showDropdown && users.length > 0">
+      <li ng-repeat="user in users track by $index" ng-click="populate(user)">
+        <a href="#">
+          <div>
+            <img class="avatar" data-ng-src="{{user.image}}" />
+            <div id="cushion"></div>
+            <table class="grid">
+              <tr>
+                <td class="name">{{user.name}}</td>
+                <td class="comp">{{user.company}}</td>
+              </tr>
+              <tr>
+                <td>{{user.email}}</td>
+              </tr>
+            </table>         
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
